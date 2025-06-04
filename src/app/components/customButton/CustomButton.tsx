@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@heroui/button";
+import { Button } from "@mui/base";
 import { ReactNode } from "react";
 
 export default function CustomButton({
@@ -14,8 +14,7 @@ export default function CustomButton({
     <div className="w-full">
       <Button
         type="button"
-        className={`bg-mainColor w-full text-white font-bold h-[55px] ${className}`}
-        radius="full"
+        className={`bg-mainColor w-full text-white font-bold h-[55px] ${className} rounded-full`}
       >
         {children}
       </Button>
