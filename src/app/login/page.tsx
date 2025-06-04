@@ -25,7 +25,7 @@ export default function Login() {
 
       <div className=" flex justify-center gap-1 mb-5">
         <p>Dont have an account </p>
-        <Link className="text-mainColor" href={"/login"}>
+        <Link className="text-mainColor" href={"/register"}>
           Register
         </Link>
       </div>

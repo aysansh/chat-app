@@ -13,6 +13,7 @@ export default function CustomButton({
   return (
     <div className="w-full">
       <Button
+        type="button"
         className={`bg-mainColor w-full text-white font-bold h-[55px] ${className}`}
         radius="full"
       >

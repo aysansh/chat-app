@@ -10,7 +10,7 @@ export default function Register() {
         description="Fill up your details to register."
         title="Register"
       />
-      <div className="flex flex-col items-center gap-6 px-[20px] my-12">
+      <div className="flex flex-col items-center gap-6 px-[20px] my-10">
         <CustomInput
           label="Name"
           placeholder="Enter your email"
@@ -36,7 +36,7 @@ export default function Register() {
       <div className="p-[20px]">
         <CustomButton>Register</CustomButton>
       </div>
-      <div className=" flex justify-center gap-1">
+      <div className=" flex justify-center gap-1 pb-5">
         <p>Already have an account </p>
         <Link className="text-mainColor" href={"/login"}>
           Login
