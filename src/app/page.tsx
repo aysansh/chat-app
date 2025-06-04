@@ -2,7 +2,7 @@
 import { HeroUIProvider } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
-import CustomButton from "./components/customButton/CustomButton";
+import CustomButton from "../components/customButton/CustomButton";
 export default function Home() {
   return (
     <HeroUIProvider className=" h-full">

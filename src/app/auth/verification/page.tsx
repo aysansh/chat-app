@@ -1,7 +1,7 @@
 import Link from "next/link";
-import CustomButton from "../components/customButton/CustomButton";
-import HeadBox from "../components/headBox/HeadBox";
-import CustomOTPInput from "../components/custom-input/CustomOTPInput";
+import CustomButton from "../../../components/customButton/CustomButton";
+import HeadBox from "../../../components/headBox/HeadBox";
+import CustomOTPInput from "../../../components/custom-input/CustomOTPInput";
 
 export default function OTPVerification() {
   return (

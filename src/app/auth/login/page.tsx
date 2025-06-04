@@ -1,7 +1,7 @@
 import Link from "next/link";
-import HeadBox from "../components/headBox/HeadBox";
-import CustomInput from "../components/custom-input/CustomInput";
-import CustomButton from "../components/customButton/CustomButton";
+import HeadBox from "../../../components/headBox/HeadBox";
+import CustomInput from "../../../components/custom-input/CustomInput";
+import CustomButton from "../../../components/customButton/CustomButton";
 
 export default function Login() {
   return (
